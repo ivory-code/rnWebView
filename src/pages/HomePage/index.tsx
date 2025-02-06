@@ -7,7 +7,7 @@ export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.container} edges={['top', 'left', 'right']}>
       <WebView
-        source={{uri: 'https://ivory-code.github.io/resume/'}}
+        source={{uri: 'https://next-map-ruddy.vercel.app/'}}
         style={styles.webview}
       />
     </SafeAreaView>
@@ -17,7 +17,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0df',
+    // backgroundColor: '#0df',
   },
   webview: {
     flex: 1,
